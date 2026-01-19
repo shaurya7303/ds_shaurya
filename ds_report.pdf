@@ -1,0 +1,49 @@
+Trader Performance vs Market Sentiment
+Web3 Trading – Data Science Assignment
+
+Objective
+This analysis shows us how market sentiment  influences the  trader performances, risk exposure, and behavior using Hyperliquid execution data combined with the Bitcoin Fear & Greed Index.
+Our  goal is to identify  the behavioral patterns that can support sentiment aware trading strategies.
+
+Data Summary
+Trader Data: Trade level executions including trade size, direction, timestamp, and realized PnL.
+Sentiment Data: Daily Bitcoin Fear & Greed classification.
+Trades were matched to sentiment regimes using the trade date.
+
+Methodology
+Parsed and aligned timestamps
+Merged trades with daily sentiment labels
+Engineered performance and risk metrics:
+Profitability
+Win rate
+Trade size 
+Conducted sentiment-level and trader-level analysis
+Visualized PnL and risk distributions
+
+Key Findings
+Trader behavior changes significantly across sentiment regimes
+Greed regimes show:
+Larger trade sizes
+Higher PnL volatility
+Fear regimes show:
+Reduced exposure
+More stable outcomes
+
+Consistently profitable traders scale down risk during sentiment extremes
+Sell-side trades during Fear often outperform, indicating contrarian behavior
+
+Strategic Implications
+Market sentiment functions as a risk regime indicator
+Exposure controls should tighten during Greed
+Trader evaluation should include performance under Fear
+Sentiment-aware position sizing can improve consistency
+
+Limitations
+Sentiment is measured at daily granularity
+Psychological intent inferred from behavior
+Does not include volatility or funding rate data
+
+Conclusion
+Market sentiment materially impacts trader behavior and outcomes.
+Traders who adapt risk dynamically across sentiment regimes outperform those who react emotionally.
+Sentiment is not a price signal — it is a behavioral risk signal.
