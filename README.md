@@ -11,10 +11,3 @@ Engineer profitability and risk metrics
 Perform sentiment-level and trader-level analysis
 Visualize behavioral differences
 Extract actionable insights
-
-Tools Used
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
